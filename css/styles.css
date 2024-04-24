@@ -37,6 +37,9 @@ color: #434455;
         display: flex;
         justify-content: space-between;
 }
+.page-header{
+ border-bottom: 1px solid #e7e9fc;
+}
 .page-navigation {
     display: flex;
     gap: 76px;
@@ -56,6 +59,7 @@ font-weight: 700;
  color: #4d5ae5;
 padding-top: 24px;
 padding-bottom: 24px;
+margin-right: 76px;
 }
 .logo-part{
 color: #2e2f42;
@@ -107,7 +111,7 @@ margin-right: auto;
 }
 .hero-container{
    padding-top: 188px; 
-   padding-bottom: 292px;
+   padding-bottom: 188px;
    padding-left: 331px;
    padding-right: 331px;
 }
@@ -133,6 +137,7 @@ font-weight: 500;
  color: #ffff;
  background-color: #4d5ae5;
  margin-left: 164px;
+ display: block;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -171,8 +176,7 @@ font-weight: 400;
  letter-spacing: 0.02em;
 }
 .section-paddings{
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 120px 0;
 }
 .team{
  background-color: #f4f4fd;
@@ -219,8 +223,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .contacts-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 .contacts-logo {
 font-family: "Raleway", sans-serif;
@@ -263,6 +266,7 @@ font-size: 20px;
  line-height: 1.2;
  letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .our-portfolio-text {
 font-size: 16px;
@@ -274,7 +278,7 @@ color: #434455;
 border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
  border-right: 1px solid #e7e9fc;
-padding: 32px 16px;
+padding: 32px 0;
 width: 360px;
 height: 120px;
 }
