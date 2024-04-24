@@ -187,7 +187,7 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 .member-info{
-    padding: 32px 16px 32px;
+    padding: 32px 0;
     text-align: center;
 }
 .team-list{
@@ -219,9 +219,7 @@ background-color: #2e2f42;
 padding-top: 60px;
 margin-left: auto;
 margin-right: auto;
-}
-.contacts-container{
-    padding: 100px 0;
+padding: 100px 0;
 }
 .contacts-logo {
 font-family: "Raleway", sans-serif;
